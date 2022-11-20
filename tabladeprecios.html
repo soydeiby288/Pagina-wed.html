@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Precios</title>
+    <link href="<link href="<link href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Slab&family=Tinos:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tablaprecios.css">
+
+</head>
+<body style="background-color:#beddf8;"></body>
+
+<body>
+    <center><img src="imagenes/escobar.jfif" alt="fet" width="250px" height="200px" class="img"></center>
+    
+    
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <h1><a href="flexbox.html" target="_parent"> REGRESAR</a></h1>
+        <a href="#" class="nav-enlace">Inicio</a>
+        <a href="#" class="nav-enlace">contactanos</a>
+        <a href="#" class="nav-enlace">formulario</a>
+        <a href="#" class="nav-enlace">Historia</a>
+    </nav>
+    <br>
+    
+    <script>
+        function accion(){
+            console.log ("esta funcionando mi boton");
+            var ancla = document.getElementsByClassName("nav-enlace");
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("desaparece");
+            }
+        }
+    </script>
+
+    <section class="container flex text-center">
+        <div class="columna">
+            <h2>PAUTA UNO</h2>
+            <p class="precio">$2´500.000</p>
+            <p>¡ADQUIERE NUESTROS SUPER PRECIOS!. </p>
+            <hr>
+            <p>CUATRO HISTORIAS EN INSTAGRAM</p>
+                         <p> + </p>
+            <p>MENCION EN FACEBOOK RECOMENDANDO TU MARCA</p>
+            <hr>
+            <a href="#" class="btn-precio"> COMPRAR</a>
+            <img src="imagenes/motorizada.jpg.jpeg"alt="fet" width="150px" height="150px" class="img">
+
+        </div>
+        
+        <div class="columna">
+            <h2>PAUTA DOS</h2>
+            <p class="precio">$4´800.000</p>
+            <p>¡ADQUIERE NUESTROS SUPER PRECIOS!. </p>
+            <hr>
+            <p>SEIS HISTORIAS EN INSTAGRAM HABLANDO DE TU PRODUCTO</p>
+                         <p> + </p>
+            <p>MENCION EN YOUTUBE USANDO TU MARCA </p>
+            <hr>
+            <a href="#" class="btn-precio">COMPRAR</a>
+            <img src="imagenes/estilo.jpeg"alt="fet" width="150px" height="150px" class="img">
+
+        </div>
+        <div class="columna">
+            <h2>PAUTA TRES</h2>
+            <p class="precio">$2´200.000</p>
+            <p>¡ADQUIERE NUESTROS SUPER PRECIOS!. </p>
+            <hr>
+            <p>CUATRO MENCIONES EN FACEBOOK</p>
+                         <p> + </p>
+            <p>USAR TU MARCA EN UN VIDEO EN YOUTUBE </p>
+            <hr>
+            <a href="#" class="btn-precio">COMPRAR</a>
+            <img src="imagenes/mano al piso.jpg.jpeg"alt="fet" width="150px" height="150px" class="img">
+            
+        </div>
+        <div class="columna">
+            <h2>PAUTA CUATRO</h2>
+            <p class="precio">$5´200.000</p>
+            <p>¡ADQUIERE NUESTROS SUPER PRECIOS!. </p>
+            <hr>
+            <p>SUBIRTE DE SEGUIDORES EN INSTAGRAM</p>
+                         <p> + </p>
+            <p>DOS MENCIONES EN HSITORIAS DE INSTAGRAM </p>
+            <hr>
+            <a href="#" class="btn-precio">COMPRAR</a>
+            <img src="imagenes/monociclo.jpg.jpeg"alt="fet" width="150px" height="150px" class="img">
+            
+        </div>
+   
+         
+</body>
+</html>
